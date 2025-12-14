@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const Tesseract = require('tesseract.js');
 const axios = require('axios');
 
-const BOT_TOKEN = "ENTER_YOUR_BOT_TOKEN_HERE";
+const BOT_TOKEN = "8454186208:AAE-drl1auodNgoqVZtK4jgv930vNiUB50U";
 const bot = new TelegramBot(BOT_TOKEN, { polling: true });
 
 const phoneRegex = /(?:\+1[\s.-]?|1[\s.-]?)?\(?([2-9][0-9]{2})\)?[\s.-]?([0-9]{3})[\s.-]?([0-9]{4})/g;
