@@ -1,0 +1,19 @@
+{
+  "name": "telegram-image-number-scan-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that scans images and extracts USA phone numbers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "SALIM SARKER ",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "node-telegram-bot-api": "^0.64.0",
+    "tesseract.js": "^5.0.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
